@@ -1,0 +1,32 @@
+
+* {
+    font-family: 'Ubuntu', sans-serif;
+}
+section {
+    border: 1px red dotted;
+}
+h1 {
+    
+    color:darksalmon
+    /* color:gold */
+}
+
+h2 { 
+    color:gold;
+}
+
+h3 {
+    color:blueviolet
+}
+
+h4 {
+
+}
+
+h5 {
+
+}
+
+h6 {
+
+}
