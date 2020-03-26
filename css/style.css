@@ -7,19 +7,28 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    justify-content: space-around;
+    
+}
+footer {
+    justify-content: space-between;
+    align-content: center;
+}
 section {
     border: 1px red dotted;
     min-height: 100vh;
     background-color: moccasin
-
+    
 }
 
-i{
+i {
     color: gray
 }
 h1 {
     
-    color:darksalmon
+    color:rgb(112, 106, 73)
     /* color:gold */
 }
 
@@ -28,7 +37,7 @@ h2 {
 }
 
 h3 {
-    color:blueviolet
+    color:rgb(24, 70, 9)
 }
 
 h4 {
@@ -56,7 +65,16 @@ li{
 /*Text Styles // end */
 
 /*CLASSES*/
-
+.row {
+    display: flex;
+}
+.hero {
+    text-align: center;
+    background-image: url("../img/kari-shea-1SAnrIxw5OY-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 .bgColorSection1 {
     background-color: rgb(181, 237, 247);
 }
@@ -79,4 +97,21 @@ li{
 
 .fa-searchengin {
     color: black;
+}
+
+.centerSectionCol {
+    text-align: center;
+}
+
+/* ID */
+
+#featuresSection {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#testimonialSection {
+    /* justify-content: center; */
+    width: 350px;
+    text-align: center;
 }
