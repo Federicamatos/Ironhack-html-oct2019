@@ -1,0 +1,35 @@
+
+/* ------------------------------------- */
+/* THIS IS FOR MOBILE */
+/* ------------------------------------- */
+body{
+    background-color: sandybrown;
+}
+
+h1{
+    color: rosybrown
+
+}
+
+h2{
+    color: pink
+}
+
+/* ------------------------------------- */
+/* THIS IS FOR TABLET */
+/* -------------------------------------- */
+@media only screen and (min-width: 600px) {
+    h1 {
+        color: lightblue;
+    }
+}
+
+
+/* ------------------------------------- */
+/* THIS IS FOR DESKTOP */
+/* ------------------------------------- */
+@media only screen and (min-width: 768PX) {
+    h1 {
+        color: lightseagreen
+    }
+}

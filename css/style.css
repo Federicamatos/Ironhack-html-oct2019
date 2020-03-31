@@ -10,6 +10,7 @@ body {
 
 header {
     justify-content: space-around;
+    padding: 10px;
     
 }
 footer {
@@ -59,9 +60,34 @@ ul{
 }
 li{
     display: inline;
+    padding: 1.2em;
 
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    margin: 0.8em;
+}
+
+a:link {
+    color: black
+}
+
+a:visited {
+    color: yellow;
+}
+
+a:active {
+
+}
+
+a:hover {
+    color: red; 
+    text-decoration: underline;
+    background-color: wheat;
+    padding: 0.12em;
+}
 /*Text Styles // end */
 
 /*CLASSES*/
@@ -101,6 +127,12 @@ li{
 
 .centerSectionCol {
     text-align: center;
+
+}
+
+.footer-menu {
+    display: block;
+    padding: 0 1.2em 1.2em 0;
 }
 
 /* ID */
