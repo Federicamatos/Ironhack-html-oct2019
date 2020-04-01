@@ -3,11 +3,11 @@
 /* THIS IS FOR MOBILE */
 /* ------------------------------------- */
 body{
-    background-color: sandybrown;
+    background-color: rgba(77, 47, 9, 0.801);
 }
 
 h1{
-    color: rosybrown
+    color: sandybrown
 
 }
 
@@ -19,6 +19,9 @@ h2{
 /* THIS IS FOR TABLET */
 /* -------------------------------------- */
 @media only screen and (min-width: 600px) {
+    body{
+        background-color: rgb(3, 11, 54);
+    }
     h1 {
         color: lightblue;
     }
@@ -29,6 +32,10 @@ h2{
 /* THIS IS FOR DESKTOP */
 /* ------------------------------------- */
 @media only screen and (min-width: 768PX) {
+    body{
+        background-color: rgb(19, 99, 95);
+    }
+    
     h1 {
         color: lightseagreen
     }
